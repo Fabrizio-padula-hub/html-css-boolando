@@ -13,7 +13,7 @@ img{
 /* -------------
     DEBUG
 -------------- */
-.container{
+/* .container{
     border: 2px dashed black;
 }
 .col-33{
@@ -24,7 +24,7 @@ footer .container{
 }
 .col-50{
     border: 2px dashed white; 
-}
+} */
 /* -------------
     TYPOGRAPY
 -------------- */
@@ -50,13 +50,18 @@ footer{
 }
 .container{
     display: flex;
+    flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
+    padding-top: 20px;
 }
 .col-33{
     width: calc(100% / 3);
+}
+.col-33:nth-child(2) {
+    margin: 0px 10px; 
 }
 .col-50{
     width: 50%;
@@ -94,6 +99,7 @@ footer{
 }
 .tex-red{
     color: #ff0000;
+    font-weight: 700;
 }
 .tex-deleted{
     text-decoration: line-through;
