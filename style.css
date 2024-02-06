@@ -25,6 +25,7 @@ footer .container{
 .col-50{
     border: 2px dashed white; 
 } */
+
 /* -------------
     TYPOGRAPY
 -------------- */
@@ -104,7 +105,22 @@ footer{
 .tex-deleted{
     text-decoration: line-through;
 }
-
+.card .img-hover{
+    display: none;
+}
+.card:hover .img-hover{
+    display: block;
+}
+.card:hover .img-defoult{
+    display: none;
+}
+.card .heart{
+    color: #ff0000;
+    display: none;
+}
+.card:hover .heart{
+    display: block;
+}
 /* -------------
     HEADER
 -------------- */
@@ -120,7 +136,4 @@ header img{
     text-align: end;
 }
 
-/* -------------
-    HEADER
--------------- */
 
