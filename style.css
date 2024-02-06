@@ -61,6 +61,12 @@ footer{
 .col-50{
     width: 50%;
 }
+.discount span{
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 500;
+    padding: 5px;
+}
 
 /* -------------
     CARD
@@ -78,8 +84,19 @@ footer{
 }
 .card .discount{
     position: absolute;
-    border: 1px solid black;
-    bottom: 20px;
+    bottom: 35px;
+}
+.sconto{
+    background-color: #ff0000;
+}
+.sostenibile{
+    background-color: #008000;
+}
+.tex-red{
+    color: #ff0000;
+}
+.tex-deleted{
+    text-decoration: line-through;
 }
 
 /* -------------
