@@ -1,0 +1,55 @@
+/* -------------
+    RESET
+-------------- */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+
+/* -------------
+    DEBUG
+-------------- */
+.container{
+    border: 2px dashed black;
+}
+.col-33{
+    border: 2px dashed rgb(9, 243, 142);
+}
+/* -------------
+    TYPOGRAPY
+-------------- */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* -------------
+    GENERAL
+-------------- */
+header{
+    background-color: #ff6900;
+    color: #ffffff;
+    margin-bottom: 60px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.col-33{
+    width: calc(100% / 3);
+}
+/* -------------
+    HEADER
+-------------- */
+header img{
+    max-width: 100%;
+}
+.icon:last-child{
+    text-align: end;
+}
