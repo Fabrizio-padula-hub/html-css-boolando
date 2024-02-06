@@ -69,17 +69,19 @@ footer{
     position: relative;
 }
 .card .heart{
-    font-size: 50px;
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
+    font-size: 50px;
     background-color: #ffffff;
     padding: 0px 10px;
-    margin-top: 10px;
 }
-.card.discount{
+.card .discount{
     position: absolute;
+    border: 1px solid black;
+    bottom: 20px;
 }
+
 /* -------------
     HEADER
 -------------- */
